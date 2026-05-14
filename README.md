@@ -232,7 +232,7 @@ The project was structured using modular pipelines and reusable artifacts to sup
 ## Clone Repository
 
 ```bash
-git clone <repository_link>
+git clone https://github.com/vkancharla5/integrated-credit-risk-framework.git
 ```
 ## Install Dependencies
 

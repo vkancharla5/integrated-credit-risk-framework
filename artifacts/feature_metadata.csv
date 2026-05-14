@@ -1,0 +1,9 @@
+Feature,Description,Type,Source,Transfromation
+int_rate_bin_woe,Interest rate bin (WoE),Numeric,Derived,Binning+WoE
+grade_woe,Credit grade WoE,Categorical,Raw,WoE
+dti_bin_woe,Debt-to-income bin,Numeric,Derived,Binning+WoE
+installment_bin_woe,Monthly installment bin,Numeric,Derived,Binning+WoE
+verification_status_woe,Verification status,Categorical,Raw,WoE
+initial_list_status_woe,Initial list status,Categorical,Raw,WoE
+revol_util_bin_woe,Revolving utilization,Numeric,Derived,Binning+WoE
+purpose_grp_woe,Loan purpose group,Categorical,Derived,WoE

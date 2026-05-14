@@ -1,0 +1,10 @@
+,PSI,alert,action
+purpose_woe,3.1305246761667487,Significant Drift,Investigate
+initial_list_status_woe,0.33300258765128876,Significant Drift,Investigate
+inq_last_6mths_bin_woe,0.05341477284137063,Stable,No action
+verification_status_woe,0.048312185146798414,Stable,No action
+dti_bin_woe,0.043434299059547,Stable,No action
+credit_age_months_bin_woe,0.013183349312350162,Stable,No action
+home_ownership_woe,0.0069856599824856275,Stable,No action
+grade_woe,0.006735004743147822,Stable,No action
+annual_inc_bin_woe,0.005028419693137541,Stable,No action

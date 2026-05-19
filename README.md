@@ -6,7 +6,7 @@
 ![IFRS9](https://img.shields.io/badge/IFRS%209-ECL%20Compatible-green)
 ![SR11-7](https://img.shields.io/badge/MRM-SR%2011--7%20Aligned-orange)
 
-> **Regulatory context:** This framework replicates the model lifecycle a bank follows under 
+> **Regulatory context:** This framework conceptually replicates the model lifecycle a bank follows under 
 > Basel III IRB approach — developing PD, LGD, EAD models, calculating Expected Loss (EL = PD × 
 > LGD × EAD), validating against champion/challenger benchmarks, and producing SR 11-7 aligned 
 > governance documentation. forming the foundational EL framework used in IFRS 9 / Ind AS 109 Expected Credit Loss (ECL) estimation

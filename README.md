@@ -252,8 +252,8 @@ All models trained on 2007–2014 Lending Club data, evaluated on identical
 
 | Metric | Value | Status | Action |
 |--------|-------|--------|--------|
-| Score PSI (PD) | < 0.04 | 🟢 Stable | No action required |
-| Feature PSI — majority | 0.043  | 🟢 Stable | No action required |
+| Score PSI (PD) | 0.04 | 🟢 Stable | No action required |
+| Feature PSI — majority | > 0.01  | 🟢 Stable | No action required |
 | Feature PSI — flagged | 0.10–0.25 | 🟡 Moderate | Monitor |
 | Recalibration trigger | > 0.25 | 🔴 Threshold | Investigate / recalibrate |
 

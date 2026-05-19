@@ -227,8 +227,8 @@ All models trained on 2007–2014 Lending Club data, evaluated on identical
 | LightGBM (Challenger 2) | 0.7181 | 0.4363 | 0.3204 | ⚠️ Rejected — see note below |
 | Random Forest (Challenger 3) | 0.6206 | 0.2412 | 0.1857 | ⚠️ Rejected — see note below |
 
-> **Validation finding:** Logistic Regression outperforms all challenger 
-> models on every OOT metric (AUC, Gini, KS). Additionally, Basel III IRB 
+> **Validation finding:** Logistic Regression demonstrates stable out-of-time performance while satisfying Basel III IRB and IFRS 9 explainability, interpretability, and governance requirements. Although challenger ensemble models provide competitive discriminatory power, Logistic Regression is retained as champion due to regulatory transparency and validation defensibility. 
+> Additionally, Basel III IRB 
 > and IFRS 9 require model interpretability, coefficient significance testing 
 > (p-values), and regulatory explainability — constraints that black-box 
 > ensemble models cannot satisfy. Champion model is retained on both 

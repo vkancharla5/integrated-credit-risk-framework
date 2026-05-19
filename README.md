@@ -1,18 +1,14 @@
-# Integrated Credit Risk Modeling, Validation & Monitoring Framework
+# Integrated Credit Risk Modeling, Validation & MRM Framework
+### Basel III-aligned PD/LGD/EAD modeling | IFRS 9 ECL-compatible | SR 11-7 MRM governance
 
-## Project Overview
+> **Regulatory context:** This framework replicates the model lifecycle a bank follows under 
+> Basel III IRB approach — developing PD, LGD, EAD models, calculating Expected Loss (EL = PD × 
+> LGD × EAD), validating against champion/challenger benchmarks, and producing SR 11-7 aligned 
+> governance documentation. The EL framework is directly compatible with IFRS 9 / Ind AS 109 
+> Expected Credit Loss (ECL) staging logic.
 
-This project demonstrates an end-to-end integrated credit risk analytics framework covering:
-
-- Probability of Default (PD)
-- Loss Given Default (LGD)
-- Exposure at Default (EAD)
-- Expected Loss (EL)
-- Model Validation
-- Model Monitoring
-- Governance-Oriented Reporting
-
-The framework was developed using Lending Club loan data and designed to demonstrate practical credit risk modeling and model risk management concepts including validation, monitoring, calibration, drift assessment, and governance documentation.
+**Framework covers:** PD · LGD · EAD · Expected Loss · Champion–Challenger Validation · 
+PSI Monitoring · Calibration · Model Risk Governance (MDD, MID, Risk Register, Monitoring Plan)
 
 ---
 

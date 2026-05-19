@@ -207,7 +207,7 @@ The repository includes governance-oriented documentation artifacts including:
 | AUC | 0.6738 | 0.6711 | 0.7217 | Good discriminatory power |
 | Gini | 0.3477 | 0.3423 | 0.4434 | Strong on unseen data |
 | KS Statistic | 0.2517 | 0.2496 | 0.3282 | Good separation of good/bad |
-| Score PSI | — | — | 0.043 < 0.10 | Stable — no drift detected |
+| Score PSI | — | — | 0.043 | Stable — no drift detected |
 | Brier Score | — | — | 0.018 | Calibration quality |
 
 > **Note:** OOT performance exceeds test performance — indicates the 
@@ -252,7 +252,7 @@ All models trained on 2007–2014 Lending Club data, evaluated on identical
 
 | Metric | Value | Status | Action |
 |--------|-------|--------|--------|
-| Score PSI (PD) | < 0.10 | 🟢 Stable | No action required |
+| Score PSI (PD) | < 0.04 | 🟢 Stable | No action required |
 | Feature PSI — majority | 0.043  | 🟢 Stable | No action required |
 | Feature PSI — flagged | 0.10–0.25 | 🟡 Moderate | Monitor |
 | Recalibration trigger | > 0.25 | 🔴 Threshold | Investigate / recalibrate |
